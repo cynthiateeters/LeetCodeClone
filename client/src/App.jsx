@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="absolute top-20 bottom-60 left-40 right-40 text-left">
+        <div className="absolute top-20 bottom-40 left-20 right-20 text-left">
           <div>Create a function to add two numbers.</div>
           <div className="flex space-x-2">
             {testCaseResults.map((res, i) => {
